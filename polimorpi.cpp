@@ -19,7 +19,7 @@ public:
 class lia :public seseorang {
 public:
     void pesan() {
-        cout << "Pesan dari lia" <, endl;
+        cout << "Pesan dari lia" << endl;
     }
 
 };
@@ -33,4 +33,7 @@ int main() {
     obyek->pesan();
     obyek = &b;
     obyek->pesan();
+    //a.seseorang::pesan();
+    //b.seseorang::pesan();
+    return 0;
 }
